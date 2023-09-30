@@ -1,0 +1,33 @@
+{
+  "name": "callappsyncapi",
+  "version": "1.0.0",
+  "description": "Package to call APPSYNCAPI using IAM",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "APPSYNC",
+    "AWS",
+    "IAM",
+    "GRAPHQL",
+    "LAMBDA"
+  ],
+  "author": "Vidit Shah",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "typescript": "^5.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/proton0210/CallAppsyncAPI"
+  },
+  "dependencies": {
+    "@aws-sdk/credential-provider-node": "^3.421.0",
+    "@aws-sdk/hash-node": "^3.374.0",
+    "@aws-sdk/protocol-http": "^3.374.0",
+    "@aws-sdk/signature-v4": "^3.374.0",
+    "node-fetch": "^3.3.2"
+  }
+}
