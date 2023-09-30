@@ -6,7 +6,7 @@ import { defaultProvider } from "@aws-sdk/credential-provider-node";
 import { Hash } from "@aws-sdk/hash-node";
 import { HttpRequest } from "@aws-sdk/protocol-http";
 
-async function callAppSyncAPI(
+export default async function callAppSyncAPI(
   api_url: string,
   region: string,
   query: string,
